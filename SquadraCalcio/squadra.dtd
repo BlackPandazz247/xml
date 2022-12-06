@@ -1,0 +1,11 @@
+<!ELEMENT squadra (presidente, allenatore, giocatore+)>
+<!ELEMENT presidente (#PCDATA)>
+<!ELEMENT allenatore (#PCDATA)>
+<!ELEMENT giocatore (nome, ruolo+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT ruolo (#PCDATA)>
+<!ATTLIST squadra
+    nome CDATA #REQUIRED
+    serie (A|B|C1|C2|C3) #REQUIRED
+>
+<!ATTLIST giocatore titolare (si|no) #REQUIRED>

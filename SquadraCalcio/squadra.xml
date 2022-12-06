@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE squadra SYSTEM "squadra.dtd">
+<squadra nome="Juminter" serie="C1">
+    <presidente>Mario Rossi</presidente>
+    <allenatore>Giuseppe Bianchi</allenatore>
+    <giocatore titolare="si">
+        <nome>Leonardo Da Vinci</nome>
+        <ruolo>terzino</ruolo>
+    </giocatore>
+    <giocatore titolare="no">
+        <nome>Cristoforo Colombo</nome>
+        <ruolo>attacante</ruolo>
+        <ruolo>mezzala</ruolo>
+    </giocatore>
+    <giocatore titolare="si">
+        <nome>Giulio Cesare</nome>
+        <ruolo>difensore</ruolo>
+    </giocatore>
+</squadra>
