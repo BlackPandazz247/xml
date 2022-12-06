@@ -1,0 +1,12 @@
+<!ELEMENT catalogo (film*)>
+<!ELEMENT film (titolo, regista+, attore*, genere?)>
+<!ELEMENT titolo (#PCDATA)>
+<!ELEMENT regista (#PCDATA)>
+<!ELEMENT attore (#PCDATA)>
+<!ELEMENT genere (#PCDATA)>
+<!ATTLIST film
+    cod ID #REQUIRED
+    originale (si|no) #IMPLIED
+    formato (VHS|DVD|DIVX) #REQUIRED
+    voto CDATA #IMPLIED
+>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articolo SYSTEM "articolo.dtd">
+<articolo cod="p1" titolo="Settimio" dataPubblicazione="24-12-2004">
+    <paragrafo>
+        <testo>Ciao</testo>
+        <immagine file="articolo.dtd"/>
+        <codice>awada</codice>
+    </paragrafo>
+    <paragrafo tipo="bibliografia" titolo="Sium">
+        <testo>AFafwf</testo>
+    </paragrafo>
+</articolo>

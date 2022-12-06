@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE catalogo SYSTEM "film.dtd"[]>
+<catalogo>
+  <film cod="f1" formato="VHS">
+    <titolo>Black Panther</titolo>
+    <regista>Bryan Singer</regista>
+    <attore>Lucy Boynton</attore>
+    <attore>Rami malek</attore>
+    <genere>Musicale</genere>
+  </film>
+  <film cod="f2" originale="no" formato="DIVX" voto="10">
+    <titolo>Ciao</titolo>
+    <regista>me</regista>
+    <regista>Stephen Awking</regista>
+    <attore>Me</attore>
+  </film>
+</catalogo>
